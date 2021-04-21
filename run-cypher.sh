@@ -1,4 +1,4 @@
 #!/bin/bash
 
-#cypher-shell -u neo4j -p test --file test-data.cypher --format verbose
-cypher-shell -u neo4j -p test --file $1 --format verbose
+#cypher-shell -u neo4j -p secret --file test-data.cypher --format verbose
+cypher-shell -u neo4j -p secret --file $1 --format verbose
